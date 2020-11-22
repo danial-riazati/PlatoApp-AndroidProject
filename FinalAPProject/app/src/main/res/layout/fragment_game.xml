@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="85">
+
+        <LinearLayout
+            android:id="@+id/xo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="23"
+            android:weightSum="20"
+            android:background="@drawable/outlined_rect">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="13"
+                android:src="@drawable/xo_icon"
+                android:layout_marginStart="30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/xo"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:layout_weight="7"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hangman"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="23"
+            android:weightSum="20"
+            android:background="@drawable/outlined_rect">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="13"
+                android:src="@drawable/hangman_icon"
+                android:layout_marginStart="30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hangman"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:layout_weight="7"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/othello"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="23"
+            android:weightSum="20"
+            android:background="@drawable/outlined_rect">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="13"
+                android:src="@drawable/othello"
+                android:layout_marginStart="30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/othello"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:layout_weight="7"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dotsandboxes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="23"
+            android:weightSum="20"
+            android:background="@drawable/outlined_rect">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="13"
+                android:src="@drawable/dots_and_boxes_icon"
+                android:layout_marginStart="30dp"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/dots_and_boxes"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_weight="7"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

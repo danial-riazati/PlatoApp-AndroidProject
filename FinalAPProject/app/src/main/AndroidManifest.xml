@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalapproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main">
+
+        </activity>
+        <activity android:name=".ui.friends.AddFriend" />
+        <activity android:name=".ui.friends.FriendDetails" />
+        <activity android:name=".ui.chat.ChatActivity" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".ui.game.XOLobby" />
+        <activity android:name=".ui.game.HangmanLobby" />
+        <activity android:name=".ui.game.DotsAndBoxesActivity" />
+        <activity android:name=".ui.settings.ChangeUsername" />
+        <activity android:name=".ui.game.XOActivity" />
+        <activity android:name=".ui.game.OthelloActivity" />
+        <activity android:name=".ui.game.OthelloLobby" />
+        <activity android:name=".ui.game.XOMenu" />
+        <activity android:name=".ui.game.XOCasualLobbyActivity" />
+        <activity android:name=".ui.game.XOLeaderBoardActivity" />
+        <activity android:name=".ui.game.OthelloMenu" />
+        <activity android:name=".ui.game.OthelloLeaderBoardActivity" />
+        <activity android:name=".ui.game.OthelloCasualLobbyActivity" />
+        <activity android:name=".ui.game.HangmanActivity2" />
+        <activity android:name=".ui.game.HangmanActivity" />
+        <activity android:name=".ui.game.HangmanMenu" />
+        <activity android:name=".ui.game.HangmanLeaderBoardActivity" />
+        <activity android:name=".ui.game.HangmanCasualLobbyActivity" />
+    </application>
+
+</manifest>

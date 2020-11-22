@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Plato</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="game">Game</string>
+    <string name="home">Home</string>
+    <string name="friend">Friends</string>
+    <string name="chat">Chat</string>
+    <string name="enter_a_username">Enter a username :</string>
+    <string name="welcome_to_plato">Welcome to PLATO !</string>
+    <string name="your_score_in_othello_2000">Your Score in Othello : 2000</string>
+    <string name="dots_and_boxes">Dots and Boxes</string>
+    <string name="hangman">Hangman</string>
+    <string name="xo">XO</string>
+    <string name="about_us">
+        Welcome to Plato !\n
+        The Plato app is one of the Zonuz Inc. and Riazati Inc product .
+        Zonuz Inc. and Riazati Inc. are companies registered under the laws of IRI . \n \n
+        To contact us by Email : \n
+        dnr1380@gmail.com \n
+        hasanzon@yahoo.com \n \n
+        And our GitHub : \n
+        github.com/hzonuz \n
+        github.com/dnr2000 \n \n
+        Copyright 2020 Zonuz Inc \n
+        Copyright 2020 Riazati Inc \n
+    </string>
+    <string name="settings">Settings</string>
+    <string name="change_username">Change Username</string>
+    <string name="enter_a_new_username">Enter a new Username</string>
+    <string name="waiting_for_another_player_for_xo">Waiting for another player for XO ...</string>
+    <string name="othello">Othello</string>
+    <string name="waiting_for_another_player_for_hangman">Waiting for another player for Hangman ...</string>
+</resources>
+

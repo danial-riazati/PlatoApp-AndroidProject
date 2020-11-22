@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="100"
+        android:background="#72C572">
+
+        <TextView
+            android:id="@+id/remain_hangman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginStart="30sp"
+            android:gravity="bottom"
+            android:textSize="20sp"
+            android:layout_weight="20"/>
+
+        <TextView
+            android:id="@+id/ans_hangman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_weight="20"/>
+
+        <EditText
+            android:id="@+id/guess_hangman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="13"
+            android:layout_gravity="center"
+            android:inputType="textPersonName"
+            android:hint="Write a word"
+            android:layout_weight="5"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"/>
+
+        <Button
+            android:id="@+id/submit_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_weight="5"
+            android:layout_gravity="center"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
